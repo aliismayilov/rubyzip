@@ -39,5 +39,6 @@ env:
   global:
     - JRUBY_OPTS="--debug"
     - COVERALLS_PARALLEL=true
+    - RUBYOPT="--enable-frozen-string-literal"
 notifications:
   webhooks: https://coveralls.io/webhook
