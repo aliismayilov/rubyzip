@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Zip
   RUNNING_ON_WINDOWS = RbConfig::CONFIG['host_os'] =~ /mswin|mingw|cygwin/i
 
