@@ -81,7 +81,7 @@ module Zip
     end
 
     # Modeled after IO.sysread
-    def sysread(length = nil, outbuf = '')
+    def sysread(length = nil, outbuf = +'')
       @decompressor.read(length, outbuf)
     end
 
